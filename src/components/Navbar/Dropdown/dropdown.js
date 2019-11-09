@@ -36,10 +36,10 @@ class Dropdown extends Component{
         </div>
         <ul id="myDropdown" className="dropdown-content">
           <Link to={ROUTES.LANDING} style={{ textDecoration: 'none' }}>
-            <li>Landing</li>
+            <li>Home</li>
           </Link>
-          <Link to={ROUTES.ACCOUNT} style={{ textDecoration: 'none' }}>
-            <li>Account</li>
+          <Link to={ROUTES.RESUME} style={{ textDecoration: 'none' }}>
+            <li>Resume</li>
           </Link>
           <Link to={ROUTES.SETTINGS} style={{ textDecoration: 'none' }}>
             <li>Settings</li>

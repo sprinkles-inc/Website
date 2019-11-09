@@ -1,0 +1,19 @@
+@import "../../../assets/variables.scss";
+
+.content {
+  display: flex;
+  width: 100vw;
+  //height: calc(100vh - 150px);
+  justify-content: center;
+  margin-top: 100px;
+  //overflow-y: visible;
+}
+
+.inner {
+  display: block;
+  position: relative;
+  width: 50vw;
+  overflow-y: scroll;
+  //height: 100%;
+  //margin-left: 25%;
+}
