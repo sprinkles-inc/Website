@@ -7,7 +7,9 @@ import {
 import LandingPage from './Pages/Landing/landing';
 import SignUpPage from './Pages/Signup/signup';
 import ResumePage from './Pages/Resume/resume';
+import FilmPage from './Pages/Film/film';
 import SettingsPage from './Pages/Settings/settings';
+
 
 import * as ROUTES from '../common/routes';
 
@@ -19,6 +21,7 @@ class App extends Component {
             <Route exact path={ROUTES.LANDING} component={LandingPage} />
             <Route path={ROUTES.SIGN_UP} component={SignUpPage} />
             <Route path={ROUTES.RESUME} component={ResumePage} />
+            <Route path={ROUTES.FILM} component={FilmPage} />
             <Route path={ROUTES.SETTINGS} component={SettingsPage} />
           </div>  
       </Router>

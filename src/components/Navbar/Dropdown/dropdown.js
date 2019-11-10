@@ -41,6 +41,9 @@ class Dropdown extends Component{
           <Link to={ROUTES.RESUME} style={{ textDecoration: 'none' }}>
             <li>Resume</li>
           </Link>
+          <Link to={ROUTES.FILM} style={{ textDecoration: 'none' }}>
+            <li>Film</li>
+          </Link>
           <Link to={ROUTES.SETTINGS} style={{ textDecoration: 'none' }}>
             <li>Settings</li>
           </Link>
